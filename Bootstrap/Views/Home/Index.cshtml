@@ -1,0 +1,172 @@
+﻿@{
+    ViewData["Title"] = "Pagina Inicial";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-6 col-lg-7 mb-3" style="border: 1px solid white;">
+            <h1>O combusatível para suas melhores linhas de código.</h1>
+          <p>Devgrind é um café de graos especiais, torrado artesanalmente para maximizar o foco e a energia de desenvolvedores e profissionais de tecnologia.</p>
+          </div>
+
+        <div class="col-12 col-md-6 col-lg-5 mb-3" style="border: 1px solid white;">
+            <img src="~/img/cafe-pacote.jpg" alt="Alternate Text" width="250px" />
+           </div>
+    </div>
+</div>
+<br />
+
+<div class="container" style="background-color: #e9ecef">
+    <div class="row">
+        <h3 class="text-center" id="diferenciais">Por que escolher o Café DevGrind?</h3>
+        <div class="col-4" style="border: 1px solid white;">
+            <h4>🚀 Máximo foco</h4>
+            <p>Grãos com perfil de torra que potencializa a cafeína de forma estável, sem picos de ansiedade</p>
+        </div>
+
+        <div class="col-4" style="border: 1px solid white;">
+            <h4>🌱 Origem sustentável</h4>
+            <p>
+                Trabalhamos com pequenos produtores que utilizam práticas agrícolas sustentáveis e de comércio justo
+            </p>
+        </div>
+
+        <div class="col-4" style="border: 1px solid white;">
+            <h4>🚛 Entrega rápida</h4>
+            <p>Receba seu café recém-torrado na porta da sua casa ou escritório, sem complicações.</p>
+        </div>
+
+    </div>
+</div>
+<br />
+
+<div class="container">
+
+    <h1 class="text-center mb-4">Nossos Planos</h1>
+
+    <div class="row">
+
+
+
+        <div class="col-12 col-md-6 col-lg-4 mb-3">
+
+            <div class="card h-100">
+                <h4 class="card-title text-center" id="planos">Plano Dev Jr.</h4>
+                <div class="card-body">
+                    <h5 class="card-title">49,90/mês</h5>
+
+                    <p class="card-text">250g de café especial por mês Grãos moidos ou inteiros Acesso à comunidade </p>
+
+                    <a href="#" class="btn btn-primary">Assinar agora</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="col-12 col-md-6 col-lg-4 mb-3">
+
+            <div class="card h-100">
+                <h4 class="card-title text-center">Plano Pleno</h4>
+                <div class="card-body">
+
+                    <h5 class="card-title">89,90/mês</h5>
+
+                    <p class="card-text">500g de café especial por mês Dois perfis de toua diferentes Brindes exclusivos Acesso à comunidade.</p>
+
+                    <a href="#" class="btn btn-primary">Assinar agora</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="col-12 col-md-6 col-lg-4 mb-3">
+
+            <div class="card h-100">
+                <h4 class="card-title text-center">Plano Sênior</h4>
+
+                <div class="card-body">
+
+                    <h5 class="card-title">129,90/mês</h5>
+
+                    <p class="card-text">1kg de café especial por mês Acesso a micr olotes raios Suporte prioritário Todos os beneffcios anteriores</p>
+
+                    <a href="#" class="btn btn-primary">Assinar agora</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container mt-4 d-flex flex-column justify-content-center align-items-center">
+            <h5 class="mb-4 text-center">Fiocu com alguma dúvida?</h5>
+
+            <button type="button" class="btn btn-primary text-center" data-bs-toggle="modal" data-bs-target="#exemploModal">
+                Entre em contato aqui
+            </button>
+
+            <div class="modal fade" id="exemploModal" tabindex="-1" aria-labelledby="exemploModalLabel" aria-hidden="true">
+
+                <div class="modal-dialog">
+
+                    <div class="modal-content">
+
+
+
+                        <div class="modal-header">
+
+                            <h5 class="modal-title" id="exemploModalLabel">Entre em contato:</h5>
+
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                        </div>
+
+
+
+
+
+                        @* <div class="modal-body">
+
+                    Aqui vai o conteúdo principal do seu modal. Pode ser um texto, um formulário, uma imagem, etc.
+
+                    <br /><br />
+
+					<p>Este conteúdo foi carregado junto com a página.</p>
+
+                </div> *@
+
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="nome" class="form-label" id="contato">Seu Nome</label>
+                                    <input type="text" class="form-control" id="nome">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Seu E-mail</label>
+                                    <input type="email" class="form-control" id="email">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="mensagem" class="form-label">Mensagem</label>
+                                    <textarea class="form-control" id="mensagem" rows="3"></textarea>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-" data-bs-dismiss="modal">Fechar</button>
+                            <button type="button" class="btn btn-primary">Salvar Mudanças</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
